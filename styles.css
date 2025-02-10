@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff6f61, #ffb84d, #ff9f00);
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header-container p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar ul li a:hover {
+    color: #ff9f00;
+}
+
+.section-container {
+    margin-top: 100px;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.service-card, .project-card {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.service-card:hover, .project-card:hover {
+    transform: scale(1.05);
+    background: #ff9f00;
+    color: black;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    color: #ff9f00;
+}
+
+a:hover {
+    text-decoration: underline;
+}
